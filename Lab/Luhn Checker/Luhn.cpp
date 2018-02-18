@@ -9,7 +9,7 @@ using namespace std;
 #include <iostream>
 #include <string>
 
-bool luhnChk(string);//User interface
+bool luhnChk(string);//Luhn algorithm
 void userInt();//User interface
 
 int main(){
