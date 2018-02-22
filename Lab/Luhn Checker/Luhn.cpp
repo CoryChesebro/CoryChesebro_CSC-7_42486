@@ -56,7 +56,7 @@ void userInt(){
         cout<<"Would you like to check another number? Y/N: ";
         cin>>answer;
         
-        if(!(answer == "y" || answer == "Y")){
+        if(!(answer == "y" && answer == "Y")){
             cntinue = false;
             cout<<"Cya later!"<<endl;
         }
