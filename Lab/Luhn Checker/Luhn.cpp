@@ -36,7 +36,7 @@ bool luhnChk(string luhnNum){
 }
 
 void userInt(){
-    bool cntinue = false;
+    bool cntinue = true;
     string card = "";
     string answer = "";
 
